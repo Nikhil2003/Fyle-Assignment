@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us Form</title>
-    <link rel="stylesheet" href="Contact-styles.css">
+<!--     <link rel="stylesheet" href="Contact-styles.css"> -->
 </head>
 <body>
     <div class="contact-form">
@@ -32,6 +32,102 @@
         </form>
     </div>
     <script src="scripts.js"></script>
-    
+
+    <style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contact-form {
+    background-color: white;
+    padding: 43px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    box-sizing: border-box;
+}
+
+.contact-form h2 {
+    margin-top: 0;
+    margin-bottom: 42px;
+    font-size: 1.5em;
+    color: #333;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.input-group input[type="email"],
+.input-group input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    outline: none;
+    font-size: 1em;
+    box-sizing: border-box;
+    margin-bottom: 20px
+}
+
+.input-row {
+    display: flex;
+    gap: 10px;
+}
+
+.input-group label {
+    position: absolute;
+    top: -20px;
+    left: 10px;
+    font-size: 0.9em;
+    color: #aaa;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.checkbox-group label {
+    font-size: 0.9em;
+    color: #555;
+}
+
+button[type="submit"] {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 1em;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button[type="submit"]:hover {
+    background-color: #d43d3d;
+}
+
+</style>
 </body>
 </html>
